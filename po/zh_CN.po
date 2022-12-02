@@ -1,0 +1,1127 @@
+# Chinese translation for gnome-shell-extension-openweather
+# gnome-shell-extension-openweather 软件包的简体中文翻译.
+# Copyright (C) 2011
+# This file is distributed under the same license as the gnome-shell-extension-openweather package.
+#
+# bill <bill_zt@sina.com>, 2011.
+# 绿色圣光 <lishaohui.qd@163.com>, 2014, 2015, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-shell-extension-openweather\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 10:49-0300\n"
+"PO-Revision-Date: 2022-06-30 12:16+0800\n"
+"Last-Translator: 绿色圣光 <lishaohui.qd@163.com>\n"
+"Language-Team: Chinese (Simplified) <>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#: src/extension.js:267
+msgid ""
+"Openweathermap.org does not work without an api-key.\n"
+"Either set the switch to use the extensions default key in the preferences "
+"dialog to on or register at https://openweathermap.org/appid and paste your "
+"personal key into the preferences dialog."
+msgstr ""
+"Openweathermap.org 在没有 API 密钥的情况下无法工作。\n"
+"请开启使用扩展的默认密钥，或者到 https://openweathermap.org/appid 注册，并将"
+"您的个人密钥粘贴到选项对话框中。"
+
+#: src/extension.js:454 src/extension.js:466
+#, javascript-format
+msgid "Can not connect to %s"
+msgstr "无法连接到 %s"
+
+#: src/extension.js:769 src/preferences/locationsPage.js:37
+#: src/preferences/locationsPage.js:56
+msgid "Locations"
+msgstr "位置"
+
+#: src/extension.js:770
+msgid "Reload Weather Information"
+msgstr "重新加载天气信息"
+
+#: src/extension.js:771
+#, javascript-format
+msgid "Weather data by: %s"
+msgstr "天气数据源自：%s"
+
+#: src/extension.js:773
+msgid "Weather Settings"
+msgstr "天气设置"
+
+#: src/extension.js:787
+msgid "Manual refreshes less than 2 minutes apart are ignored!"
+msgstr "间隔小于 2 分钟的手动刷新已被忽略！"
+
+#: src/extension.js:801
+#, javascript-format
+msgid "Can not open %s"
+msgstr "无法打开 %s"
+
+#: src/extension.js:849 src/preferences/locationsPage.js:507
+msgid "Invalid city"
+msgstr "无效城市"
+
+#: src/extension.js:860
+msgid "Invalid location! Please try to recreate it."
+msgstr "无效位置！请尝试重新创建。"
+
+#: src/extension.js:906 src/preferences/generalPage.js:148
+msgid "°F"
+msgstr "°F"
+
+#: src/extension.js:908 src/preferences/generalPage.js:149
+msgid "K"
+msgstr "K"
+
+#: src/extension.js:910 src/preferences/generalPage.js:150
+msgid "°Ra"
+msgstr "°Ra"
+
+#: src/extension.js:912 src/preferences/generalPage.js:151
+msgid "°Ré"
+msgstr "°Ré"
+
+#: src/extension.js:914 src/preferences/generalPage.js:152
+msgid "°Rø"
+msgstr "°Rø"
+
+#: src/extension.js:916 src/preferences/generalPage.js:153
+msgid "°De"
+msgstr "°De"
+
+#: src/extension.js:918 src/preferences/generalPage.js:154
+msgid "°N"
+msgstr "°N"
+
+#: src/extension.js:920 src/preferences/generalPage.js:147
+msgid "°C"
+msgstr "°C"
+
+#: src/extension.js:957
+msgid "Calm"
+msgstr "无风"
+
+#: src/extension.js:960
+msgid "Light air"
+msgstr "软风"
+
+#: src/extension.js:963
+msgid "Light breeze"
+msgstr "轻风"
+
+#: src/extension.js:966
+msgid "Gentle breeze"
+msgstr "微风"
+
+#: src/extension.js:969
+msgid "Moderate breeze"
+msgstr "和风"
+
+#: src/extension.js:972
+msgid "Fresh breeze"
+msgstr "清风"
+
+#: src/extension.js:975
+msgid "Strong breeze"
+msgstr "强风"
+
+#: src/extension.js:978
+msgid "Moderate gale"
+msgstr "疾风"
+
+#: src/extension.js:981
+msgid "Fresh gale"
+msgstr "大风"
+
+#: src/extension.js:984
+msgid "Strong gale"
+msgstr "烈风"
+
+#: src/extension.js:987
+msgid "Storm"
+msgstr "狂风"
+
+#: src/extension.js:990
+msgid "Violent storm"
+msgstr "暴风"
+
+#: src/extension.js:993
+msgid "Hurricane"
+msgstr "飓风"
+
+#: src/extension.js:997
+msgid "Sunday"
+msgstr "星期日"
+
+#: src/extension.js:997
+msgid "Monday"
+msgstr "星期一"
+
+#: src/extension.js:997
+msgid "Tuesday"
+msgstr "星期二"
+
+#: src/extension.js:997
+msgid "Wednesday"
+msgstr "星期三"
+
+#: src/extension.js:997
+msgid "Thursday"
+msgstr "星期四"
+
+#: src/extension.js:997
+msgid "Friday"
+msgstr "星期五"
+
+#: src/extension.js:997
+msgid "Saturday"
+msgstr "星期六"
+
+#: src/extension.js:1003
+msgid "N"
+msgstr "北"
+
+#: src/extension.js:1003
+msgid "NE"
+msgstr "东北"
+
+#: src/extension.js:1003
+msgid "E"
+msgstr "东"
+
+#: src/extension.js:1003
+msgid "SE"
+msgstr "东南"
+
+#: src/extension.js:1003
+msgid "S"
+msgstr "南"
+
+#: src/extension.js:1003
+msgid "SW"
+msgstr "西南"
+
+#: src/extension.js:1003
+msgid "W"
+msgstr "西"
+
+#: src/extension.js:1003
+msgid "NW"
+msgstr "西北"
+
+#: src/extension.js:1056 src/extension.js:1065
+#: src/preferences/generalPage.js:177
+msgid "hPa"
+msgstr "hPa"
+
+#: src/extension.js:1060 src/preferences/generalPage.js:178
+msgid "inHg"
+msgstr "inHg"
+
+#: src/extension.js:1070 src/preferences/generalPage.js:179
+msgid "bar"
+msgstr "bar"
+
+#: src/extension.js:1075 src/preferences/generalPage.js:180
+msgid "Pa"
+msgstr "Pa"
+
+#: src/extension.js:1080 src/preferences/generalPage.js:181
+msgid "kPa"
+msgstr "kPa"
+
+#: src/extension.js:1085 src/preferences/generalPage.js:182
+msgid "atm"
+msgstr "atm"
+
+#: src/extension.js:1090 src/preferences/generalPage.js:183
+msgid "at"
+msgstr "at"
+
+#: src/extension.js:1095 src/preferences/generalPage.js:184
+msgid "Torr"
+msgstr "Torr"
+
+#: src/extension.js:1100 src/preferences/generalPage.js:185
+msgid "psi"
+msgstr "psi"
+
+#: src/extension.js:1105 src/preferences/generalPage.js:186
+msgid "mmHg"
+msgstr "mmHg"
+
+#: src/extension.js:1110 src/preferences/generalPage.js:187
+msgid "mbar"
+msgstr "mbar"
+
+#: src/extension.js:1158 src/preferences/generalPage.js:165
+msgid "m/s"
+msgstr "m/s"
+
+#: src/extension.js:1163 src/preferences/generalPage.js:164
+msgid "mph"
+msgstr "mph"
+
+#: src/extension.js:1168 src/preferences/generalPage.js:163
+msgid "km/h"
+msgstr "km/h"
+
+#: src/extension.js:1177 src/preferences/generalPage.js:166
+msgid "kn"
+msgstr "kn"
+
+#: src/extension.js:1182 src/preferences/generalPage.js:167
+msgid "ft/s"
+msgstr "ft/s"
+
+#: src/extension.js:1227 src/extension.js:1265
+msgid "Loading ..."
+msgstr "正在加载 ..."
+
+#: src/extension.js:1269
+msgid "Please wait"
+msgstr "请稍候"
+
+#: src/extension.js:1340
+msgid "Feels Like:"
+msgstr "体感："
+
+#: src/extension.js:1344
+msgid "Humidity:"
+msgstr "湿度："
+
+#: src/extension.js:1348
+msgid "Pressure:"
+msgstr "气压："
+
+#: src/extension.js:1352
+msgid "Wind:"
+msgstr "风："
+
+#: src/extension.js:1356
+msgid "Gusts:"
+msgstr "阵风："
+
+#: src/extension.js:1487
+msgid "Tomorrow's Forecast"
+msgstr "明日天气预报"
+
+#: src/extension.js:1489
+#, javascript-format
+msgid "%s Day Forecast"
+msgstr "%s 天的预报"
+
+#: src/openweathermap.js:50
+msgid "Thunderstorm with Light Rain"
+msgstr "小雨伴有雷暴"
+
+#: src/openweathermap.js:52
+msgid "Thunderstorm with Rain"
+msgstr "中雨伴有雷暴"
+
+#: src/openweathermap.js:54
+msgid "Thunderstorm with Heavy Rain"
+msgstr "大雨伴有雷暴"
+
+#: src/openweathermap.js:56
+msgid "Light Thunderstorm"
+msgstr "小雷暴"
+
+#: src/openweathermap.js:58
+msgid "Thunderstorm"
+msgstr "雷暴"
+
+#: src/openweathermap.js:60
+msgid "Heavy Thunderstorm"
+msgstr "强雷暴"
+
+#: src/openweathermap.js:62
+msgid "Ragged Thunderstorm"
+msgstr "局部雷暴"
+
+#: src/openweathermap.js:64
+msgid "Thunderstorm with Light Drizzle"
+msgstr "小毛毛雨伴有雷暴"
+
+#: src/openweathermap.js:66
+msgid "Thunderstorm with Drizzle"
+msgstr "毛毛雨伴有雷暴"
+
+#: src/openweathermap.js:68
+msgid "Thunderstorm with Heavy Drizzle"
+msgstr "强毛毛雨伴有雷暴"
+
+#: src/openweathermap.js:70
+msgid "Light Drizzle"
+msgstr "小毛毛雨"
+
+#: src/openweathermap.js:72
+msgid "Drizzle"
+msgstr "毛毛雨"
+
+#: src/openweathermap.js:74
+msgid "Heavy Drizzle"
+msgstr "强毛毛雨"
+
+#: src/openweathermap.js:76
+msgid "Light Drizzle Rain"
+msgstr "小毛毛雨转雨"
+
+#: src/openweathermap.js:78
+msgid "Drizzle Rain"
+msgstr "毛毛雨转雨"
+
+#: src/openweathermap.js:80
+msgid "Heavy Drizzle Rain"
+msgstr "强毛毛雨转雨"
+
+#: src/openweathermap.js:82
+msgid "Shower Rain and Drizzle"
+msgstr "阵雨及毛毛雨"
+
+#: src/openweathermap.js:84
+msgid "Heavy Rain and Drizzle"
+msgstr "强阵雨及毛毛雨"
+
+#: src/openweathermap.js:86
+msgid "Shower Drizzle"
+msgstr "阵毛毛雨"
+
+#: src/openweathermap.js:88
+msgid "Light Rain"
+msgstr "小雨"
+
+#: src/openweathermap.js:90
+msgid "Moderate Rain"
+msgstr "中雨"
+
+#: src/openweathermap.js:92
+msgid "Heavy Rain"
+msgstr "大雨"
+
+#: src/openweathermap.js:94
+msgid "Very Heavy Rain"
+msgstr "暴雨"
+
+#: src/openweathermap.js:96
+msgid "Extreme Rain"
+msgstr "大暴雨"
+
+#: src/openweathermap.js:98
+msgid "Freezing Rain"
+msgstr "冻雨"
+
+#: src/openweathermap.js:100
+msgid "Light Shower Rain"
+msgstr "小阵雨"
+
+#: src/openweathermap.js:102
+msgid "Shower Rain"
+msgstr "阵雨"
+
+#: src/openweathermap.js:104
+msgid "Heavy Shower Rain"
+msgstr "强阵雨"
+
+#: src/openweathermap.js:106
+msgid "Ragged Shower Rain"
+msgstr "局部阵雨"
+
+#: src/openweathermap.js:108
+msgid "Light Snow"
+msgstr "小雪"
+
+#: src/openweathermap.js:110
+msgid "Snow"
+msgstr "雪"
+
+#: src/openweathermap.js:112
+msgid "Heavy Snow"
+msgstr "大雪"
+
+#: src/openweathermap.js:114
+msgid "Sleet"
+msgstr "雨夹雪"
+
+#: src/openweathermap.js:116
+msgid "Light Shower Sleet"
+msgstr "小阵雨夹雪"
+
+#: src/openweathermap.js:118
+msgid "Shower Sleet"
+msgstr "阵雨夹雪"
+
+#: src/openweathermap.js:120
+msgid "Light Rain and Snow"
+msgstr "小雨及雪"
+
+#: src/openweathermap.js:122
+msgid "Rain and Snow"
+msgstr "雨及雪"
+
+#: src/openweathermap.js:124
+msgid "Light Shower Snow"
+msgstr "小阵雪"
+
+#: src/openweathermap.js:126
+msgid "Shower Snow"
+msgstr "阵雪"
+
+#: src/openweathermap.js:128
+msgid "Heavy Shower Snow"
+msgstr "强阵雪"
+
+#: src/openweathermap.js:130
+msgid "Mist"
+msgstr "薄雾"
+
+#: src/openweathermap.js:132
+msgid "Smoke"
+msgstr "烟"
+
+#: src/openweathermap.js:134
+msgid "Haze"
+msgstr "霾"
+
+#: src/openweathermap.js:136
+msgid "Sand/Dust Whirls"
+msgstr "沙尘暴"
+
+#: src/openweathermap.js:138
+msgid "Fog"
+msgstr "雾"
+
+#: src/openweathermap.js:140
+msgid "Sand"
+msgstr "扬沙"
+
+#: src/openweathermap.js:142
+msgid "Dust"
+msgstr "浮尘"
+
+#: src/openweathermap.js:144
+msgid "Volcanic Ash"
+msgstr "火山灰"
+
+#: src/openweathermap.js:146
+msgid "Squalls"
+msgstr "飑"
+
+#: src/openweathermap.js:148
+msgid "Tornado"
+msgstr "龙卷风"
+
+#: src/openweathermap.js:150
+msgid "Clear Sky"
+msgstr "晴朗"
+
+#: src/openweathermap.js:152
+msgid "Few Clouds"
+msgstr "少云"
+
+#: src/openweathermap.js:154
+msgid "Scattered Clouds"
+msgstr "疏云"
+
+#: src/openweathermap.js:156
+msgid "Broken Clouds"
+msgstr "碎云"
+
+#: src/openweathermap.js:158
+msgid "Overcast Clouds"
+msgstr "阴天"
+
+#: src/openweathermap.js:160
+msgid "Not available"
+msgstr "不可用"
+
+#: src/openweathermap.js:374 src/openweathermap.js:376
+msgid ", "
+msgstr "，"
+
+#: src/openweathermap.js:392
+msgid "?"
+msgstr "？"
+
+#: src/openweathermap.js:460
+msgid "Tomorrow"
+msgstr "明天"
+
+#: src/preferences/generalPage.js:31
+msgid "Settings"
+msgstr "设置"
+
+#: src/preferences/generalPage.js:39
+msgid "General"
+msgstr "通用"
+
+#: src/preferences/generalPage.js:57
+msgid "Current Weather Refresh"
+msgstr "当前天气刷新"
+
+#: src/preferences/generalPage.js:58
+msgid "Current weather refresh interval in minutes"
+msgstr "以分钟为单位的当前天气刷新间隔"
+
+#: src/preferences/generalPage.js:80
+msgid "Weather Forecast Refresh"
+msgstr "天气预报刷新"
+
+#: src/preferences/generalPage.js:81
+msgid "Forecast refresh interval in minutes if enabled"
+msgstr "如果启用，以分钟为单位的天气预报刷新间隔"
+
+#: src/preferences/generalPage.js:92
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+msgid "Disable Forecast"
+msgstr "禁用天气预报"
+
+#: src/preferences/generalPage.js:93
+msgid "Disables all fetching and processing of forecast data"
+msgstr "禁用所有天气预报数据的获取和处理"
+
+#: src/preferences/generalPage.js:104
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+msgid "System Icons"
+msgstr "系统图标"
+
+#: src/preferences/generalPage.js:105
+msgid "Disable to use packaged Adwaita weather icons"
+msgstr "禁用打包的 Adwaita 天气图标"
+
+#: src/preferences/generalPage.js:106
+msgid ""
+"If you have issues with your system icons displaying correctly disable this "
+"to fix it"
+msgstr "如果您的系统图标无法正确显示，请禁用此功能来修复"
+
+#: src/preferences/generalPage.js:126
+msgid "First Boot Delay"
+msgstr "首次启动延迟"
+
+#: src/preferences/generalPage.js:127
+msgid "Seconds to delay popup initialization and data fetching"
+msgstr "弹出初始化和数据获取的延迟秒数"
+
+#: src/preferences/generalPage.js:128
+msgid ""
+"This setting only applies to the first time the extension is loaded. (first "
+"log in / restarting gnome shell)"
+msgstr "此设置仅适用于首次加载扩展。（首次登录 / 重启 GNOME Shell）"
+
+#: src/preferences/generalPage.js:142
+msgid "Units"
+msgstr "单位"
+
+#: src/preferences/generalPage.js:156
+msgid "Temperature"
+msgstr "温度"
+
+#: src/preferences/generalPage.js:168
+msgid "Beaufort"
+msgstr "蒲福风级"
+
+#: src/preferences/generalPage.js:170
+msgid "Wind Speed"
+msgstr "风速"
+
+#: src/preferences/generalPage.js:189
+msgid "Pressure"
+msgstr "气压"
+
+#: src/preferences/generalPage.js:201 src/preferences/locationsPage.js:64
+msgid "Provider"
+msgstr "提供源"
+
+#: src/preferences/generalPage.js:210
+msgid "OpenWeatherMap Multilingual Support"
+msgstr "OpenWeatherMap 多语言支持"
+
+#: src/preferences/generalPage.js:211
+msgid "Using provider translations applies to weather conditions only"
+msgstr "使用仅适用于天气状态的提供源翻译"
+
+#: src/preferences/generalPage.js:212
+msgid ""
+"Enable this to use OWM multilingual support in 46 languages if there's no "
+"built-in translations for your language yet."
+msgstr ""
+"如果您的语言还没有内置翻译，请启用此功能来使用 46 种语言的 OWM 多语言支持。"
+
+#: src/preferences/generalPage.js:224
+msgid "Use Extensions API Key"
+msgstr "使用扩展 API 密钥"
+
+#: src/preferences/generalPage.js:225
+msgid "Use the built-in API key for OpenWeatherMap"
+msgstr "使用内置的 OpenWeatherMap API 密钥"
+
+#: src/preferences/generalPage.js:226
+msgid ""
+"Disable this if you have your own API key from openweathermap.org and enter "
+"it below."
+msgstr ""
+"如果您拥有 openweathermap.org 自己的 API 密钥，请禁用此选项并在下方输入。"
+
+#: src/preferences/generalPage.js:240
+msgid "Personal API Key"
+msgstr "个人 API 密钥"
+
+#: src/preferences/layoutPage.js:31
+msgid "Layout"
+msgstr "布局"
+
+#: src/preferences/layoutPage.js:39
+msgid "Panel"
+msgstr "面板"
+
+#: src/preferences/layoutPage.js:44
+msgid "Center"
+msgstr "中央"
+
+#: src/preferences/layoutPage.js:45
+msgid "Right"
+msgstr "右侧"
+
+#: src/preferences/layoutPage.js:46
+msgid "Left"
+msgstr "左侧"
+
+#: src/preferences/layoutPage.js:48
+msgid "Position In Panel"
+msgstr "在面板上的位置"
+
+#: src/preferences/layoutPage.js:69
+msgid "Position Offset"
+msgstr "位置偏移"
+
+#: src/preferences/layoutPage.js:70
+msgid "The position relative to other items in the box"
+msgstr "相对于框中其他项目的位置"
+
+#: src/preferences/layoutPage.js:78
+msgid "Show the temperature in the panel"
+msgstr "在面板上显示气温"
+
+#: src/preferences/layoutPage.js:82
+msgid "Temperature In Panel"
+msgstr "在面板上显示气温"
+
+#: src/preferences/layoutPage.js:90
+msgid "Show the weather conditions in the panel"
+msgstr "在面板上显示天气状态"
+
+#: src/preferences/layoutPage.js:94
+msgid "Conditions In Panel"
+msgstr "在面板上显示天气状态"
+
+#: src/preferences/layoutPage.js:107
+msgid "Popup"
+msgstr "弹出"
+
+#: src/preferences/layoutPage.js:125
+msgid "Popup Position"
+msgstr "弹出位置"
+
+#: src/preferences/layoutPage.js:126
+msgid "Alignment of the popup from left to right"
+msgstr "弹出窗口从左到右的对齐"
+
+#: src/preferences/layoutPage.js:137
+msgid "Wind Direction Arrows"
+msgstr "使用箭头指示风向"
+
+#: src/preferences/layoutPage.js:149
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+msgid "Translate Conditions"
+msgstr "翻译天气状态"
+
+#: src/preferences/layoutPage.js:157
+msgid "0"
+msgstr "0"
+
+#: src/preferences/layoutPage.js:158 src/preferences/layoutPage.js:229
+msgid "1"
+msgstr "1"
+
+#: src/preferences/layoutPage.js:159 src/preferences/layoutPage.js:230
+msgid "2"
+msgstr "2"
+
+#: src/preferences/layoutPage.js:160 src/preferences/layoutPage.js:231
+msgid "3"
+msgstr "3"
+
+#: src/preferences/layoutPage.js:162
+msgid "Temperature Decimal Places"
+msgstr "温度小数位数"
+
+#: src/preferences/layoutPage.js:163
+msgid "Maximum number of digits after the decimal point"
+msgstr "小数点后最大位数"
+
+#: src/preferences/layoutPage.js:183
+msgid "Location Text Length"
+msgstr "位置文本长度"
+
+#: src/preferences/layoutPage.js:184
+msgid "Maximum length of the location text. A setting of '0' is unlimited"
+msgstr "位置文本最大长度。「0」表示无限制"
+
+#: src/preferences/layoutPage.js:200
+msgid "Forecast"
+msgstr "天气预报"
+
+#: src/preferences/layoutPage.js:210
+msgid "Center Today's Forecast"
+msgstr "今日天气预报居中显示"
+
+#: src/preferences/layoutPage.js:221
+msgid "Conditions In Forecast"
+msgstr "显示天气状态"
+
+#: src/preferences/layoutPage.js:228
+msgid "Today Only"
+msgstr "仅今天"
+
+#: src/preferences/layoutPage.js:232
+msgid "4"
+msgstr "4"
+
+#: src/preferences/layoutPage.js:233
+msgid "5"
+msgstr "5"
+
+#: src/preferences/layoutPage.js:235
+msgid "Total Days In Forecast"
+msgstr "天气预报总天数"
+
+#: src/preferences/layoutPage.js:246
+msgid "Keep Forecast Expanded"
+msgstr "保持天气预报展开"
+
+#: src/preferences/locationsPage.js:52
+msgid "Add"
+msgstr "添加"
+
+#: src/preferences/locationsPage.js:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+msgid "Geolocation Provider"
+msgstr "地理位置提供源"
+
+#: src/preferences/locationsPage.js:72
+msgid "Provider used for location search"
+msgstr "位置搜索的提供源"
+
+#: src/preferences/locationsPage.js:85
+msgid "Personal MapQuest Key"
+msgstr "个人 MapQuest 密钥"
+
+#: src/preferences/locationsPage.js:86
+msgid "Personal API Key from developer.mapquest.com"
+msgstr "来自 developer.mapquest.com 的个人 API 密钥"
+
+#: src/preferences/locationsPage.js:206
+#, javascript-format
+msgid "Location changed to: %s"
+msgstr "位置更改为：%s"
+
+#: src/preferences/locationsPage.js:221
+msgid "Add New Location"
+msgstr "添加新位置"
+
+#: src/preferences/locationsPage.js:242
+msgid "Search by Location or Coordinates"
+msgstr "通过位置或坐标搜索"
+
+#: src/preferences/locationsPage.js:248
+msgid "e.g. Vaiaku, Tuvalu or -8.5211767,179.1976747"
+msgstr "例如「北京」或「39.906217,116.3912757」"
+
+#: src/preferences/locationsPage.js:250 src/preferences/locationsPage.js:335
+#: src/preferences/locationsPage.js:352
+msgid "Clear entry"
+msgstr "清除条目"
+
+#: src/preferences/locationsPage.js:259
+msgid "Search"
+msgstr "搜索"
+
+#: src/preferences/locationsPage.js:282
+msgid "We need something to search for!"
+msgstr "需要被搜索的文本！"
+
+#: src/preferences/locationsPage.js:305
+#, javascript-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: src/preferences/locationsPage.js:327
+msgid "Edit Name"
+msgstr "编辑名称"
+
+#: src/preferences/locationsPage.js:343
+msgid "Edit Coordinates"
+msgstr "编辑坐标"
+
+#: src/preferences/locationsPage.js:361
+msgid "Save"
+msgstr "保存"
+
+#: src/preferences/locationsPage.js:394
+msgid "Please complete all fields"
+msgstr "请填写所有字段"
+
+#: src/preferences/locationsPage.js:410
+#, javascript-format
+msgid "%s has been updated"
+msgstr "%s 已被更新"
+
+#: src/preferences/locationsPage.js:439
+#, javascript-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "您确定要删除「%s」吗？"
+
+#: src/preferences/locationsPage.js:447
+msgid "Delete"
+msgstr "删除"
+
+#: src/preferences/locationsPage.js:451
+msgid "Cancel"
+msgstr "取消"
+
+#: src/preferences/locationsPage.js:483
+#, javascript-format
+msgid "%s has been deleted"
+msgstr "%s 已被删除"
+
+#: src/preferences/locationsPage.js:529
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: src/preferences/locationsPage.js:545
+msgid "New Search"
+msgstr "新搜索"
+
+#: src/preferences/locationsPage.js:552
+msgid "Searching ..."
+msgstr "正在搜索 ..."
+
+#: src/preferences/locationsPage.js:553
+#, javascript-format
+msgid "Please wait while searching for locations matching \"%s\""
+msgstr "正在搜索与「%s」匹配的位置，请稍候"
+
+#: src/preferences/locationsPage.js:605
+msgid "AppKey Required"
+msgstr "需要 AppKey"
+
+#: src/preferences/locationsPage.js:606
+#, javascript-format
+msgid "You need an AppKey to use MapQuest, get one at: %s"
+msgstr "您需要一个 AppKey 才能使用 MapQuest，请在此处获取：%s"
+
+#: src/preferences/locationsPage.js:709
+#, javascript-format
+msgid "Results for \"%s\""
+msgstr "「%s」的结果"
+
+#: src/preferences/locationsPage.js:756
+#, javascript-format
+msgid "%s has been added"
+msgstr "%s 已被添加"
+
+#: src/preferences/locationsPage.js:764
+msgid "API Error"
+msgstr "API 错误"
+
+#: src/preferences/locationsPage.js:765
+#, javascript-format
+msgid "Invalid data when searching for \"%s\"."
+msgstr "搜索「%s」时遇到无效数据。"
+
+#: src/preferences/locationsPage.js:768
+msgid "No Matches Found"
+msgstr "未找到匹配项"
+
+#: src/preferences/locationsPage.js:769
+#, javascript-format
+msgid "No results found when searching for \"%s\"."
+msgstr "搜索「%s」时未找到任何结果。"
+
+#: src/preferences/aboutPage.js:31
+msgid "About"
+msgstr "关于"
+
+#: src/preferences/aboutPage.js:58
+msgid ""
+"Display weather information for any location on Earth in the GNOME Shell"
+msgstr "在 GNOME Shell 中显示地球上任何位置的天气信息"
+
+#: src/preferences/aboutPage.js:72
+msgid "unknown"
+msgstr "未知"
+
+#: src/preferences/aboutPage.js:78
+msgid "OpenWeather Version"
+msgstr "OpenWeather 版本"
+
+#: src/preferences/aboutPage.js:87
+msgid "Git Version"
+msgstr "Git 版本"
+
+#: src/preferences/aboutPage.js:95
+msgid "GNOME Version"
+msgstr "GNOME 版本"
+
+#: src/preferences/aboutPage.js:102
+msgid "Session Type"
+msgstr "会话类型"
+
+#: src/preferences/aboutPage.js:124
+#, javascript-format
+msgid "Maintained by: %s"
+msgstr "维护者：%s"
+
+#: src/preferences/aboutPage.js:161
+#, javascript-format
+msgid "Weather data provided by: %s"
+msgstr "天气数据源自：%s"
+
+#: src/preferences/aboutPage.js:172
+msgid "This program comes with ABSOLUTELY NO WARRANTY."
+msgstr "本程序不作任何担保。"
+
+#: src/preferences/aboutPage.js:173
+msgid "See the"
+msgstr "详情见"
+
+#: src/preferences/aboutPage.js:174
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU 通用公共许可证，第 2 版及以上"
+
+#: src/preferences/aboutPage.js:174
+msgid "for details."
+msgstr "。"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+msgid "Weather Provider"
+msgstr "天气提供源"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+msgid "Temperature Unit"
+msgstr "温度单位"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+msgid "Pressure Unit"
+msgstr "气压单位"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+msgid "Wind Speed Units"
+msgstr "风速单位"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+msgid ""
+"Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
+"s', 'knots', 'ft/s' or 'Beaufort'."
+msgstr "选择风速单位。允许使用 kph、mph、m/s、knots、ft/s 或蒲福风级。"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+msgid "Wind Direction by Arrows"
+msgstr "使用箭头指示风向"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+msgid "Choose whether to display wind direction through arrows or letters."
+msgstr "选择通过箭头还是文字来显示风向。"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+msgid "City to be displayed"
+msgstr "要显示的城市"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+msgid "Actual City"
+msgstr "实际城市"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
+msgstr "OpenWeatherMap 多语言支持（仅限天气描述）"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+msgid "Temperature in Panel"
+msgstr "在面板上显示气温"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+msgid "Conditions in Panel"
+msgstr "在面板上显示天气状态"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+msgid "Conditions in Forecast"
+msgstr "显示天气状态"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+msgid "Position in Panel"
+msgstr "在面板上的位置"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+msgid "Horizontal position of menu-box."
+msgstr "菜单框的水平位置。"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+msgid "Refresh interval (actual weather)"
+msgstr "刷新间隔（实际天气）"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+msgid "Maximal length of the location text"
+msgstr "位置文本最大长度"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+msgid "Refresh interval (forecast)"
+msgstr "刷新间隔（预报天气）"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+msgid "Center forecastbox."
+msgstr "预报框居中。"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+msgid "Always keep forecast expanded"
+msgstr "始终保持天气预报展开"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+msgid "Number of days in forecast"
+msgstr "预报的天数"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+msgid "Maximal number of digits after the decimal point"
+msgstr "小数点后最大位数"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+msgid "Your personal API key from openweathermap.org"
+msgstr "您来自 openweathermap.org 的个人 API 密钥"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+msgid "Use the extensions default API key from openweathermap.org"
+msgstr "使用本扩展默认的 openweathermap.org API 密钥"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+msgid "Your personal AppKey from developer.mapquest.com"
+msgstr "您来自 developer.mapquest.com 的个人 AppKey"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+msgid "Seconds to delay popup initialization and data fetch on the first load"
+msgstr "首次加载时弹出初始化和数据获取的延迟秒数"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+msgid "Default width for the preferences window"
+msgstr "首选项窗口的默认宽度"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+msgid "Default height for the preferences window"
+msgstr "首选项窗口的默认高度"

@@ -1,0 +1,1206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Khaled Hosny <khaledhosny@eglug.org>, 2013, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-shell-extension-openweather\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 10:49-0300\n"
+"PO-Revision-Date: 2016-10-04 00:38+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-Project-Style: gnome\n"
+
+#: src/extension.js:267
+msgid ""
+"Openweathermap.org does not work without an api-key.\n"
+"Either set the switch to use the extensions default key in the preferences "
+"dialog to on or register at https://openweathermap.org/appid and paste your "
+"personal key into the preferences dialog."
+msgstr ""
+"لا يعمل openweathermap.org بدون مفتاح استخدام للخدمة.\n"
+"إما أن تختار استخدام مفتاح الامتداد المبدئي في نافذة التفضيلات أو تسجل في "
+"https://openweathermap.org/appid و تلصق المفتاح الشخصي في نافذة التفضيلات."
+
+#: src/extension.js:454 src/extension.js:466
+#, javascript-format
+msgid "Can not connect to %s"
+msgstr "تعذّر الاتّصال بـ %s"
+
+#: src/extension.js:769 src/preferences/locationsPage.js:37
+#: src/preferences/locationsPage.js:56
+msgid "Locations"
+msgstr "الأماكن"
+
+#: src/extension.js:770
+msgid "Reload Weather Information"
+msgstr "أعِد تحميل معلومات الطقس"
+
+#: src/extension.js:771
+#, fuzzy, javascript-format
+msgid "Weather data by: %s"
+msgstr "بيانات الطقس من:"
+
+#: src/extension.js:773
+msgid "Weather Settings"
+msgstr "إعدادات الطقس"
+
+#: src/extension.js:787
+msgid "Manual refreshes less than 2 minutes apart are ignored!"
+msgstr ""
+
+#: src/extension.js:801
+#, javascript-format
+msgid "Can not open %s"
+msgstr "تعذّر فتح %s"
+
+#: src/extension.js:849 src/preferences/locationsPage.js:507
+msgid "Invalid city"
+msgstr "مدينة غير صحيحة"
+
+#: src/extension.js:860
+msgid "Invalid location! Please try to recreate it."
+msgstr "مكان غير صحيح. رجاء حاول إعادة ضبطة."
+
+#: src/extension.js:906 src/preferences/generalPage.js:148
+msgid "°F"
+msgstr "°ف"
+
+#: src/extension.js:908 src/preferences/generalPage.js:149
+msgid "K"
+msgstr "ك"
+
+#: src/extension.js:910 src/preferences/generalPage.js:150
+msgid "°Ra"
+msgstr ""
+
+#: src/extension.js:912 src/preferences/generalPage.js:151
+msgid "°Ré"
+msgstr ""
+
+#: src/extension.js:914 src/preferences/generalPage.js:152
+msgid "°Rø"
+msgstr ""
+
+#: src/extension.js:916 src/preferences/generalPage.js:153
+msgid "°De"
+msgstr ""
+
+#: src/extension.js:918 src/preferences/generalPage.js:154
+msgid "°N"
+msgstr ""
+
+#: src/extension.js:920 src/preferences/generalPage.js:147
+msgid "°C"
+msgstr "°م"
+
+#: src/extension.js:957
+msgid "Calm"
+msgstr "هادئ"
+
+#: src/extension.js:960
+msgid "Light air"
+msgstr "هواء خفيف"
+
+#: src/extension.js:963
+msgid "Light breeze"
+msgstr "نسيم خفيف"
+
+#: src/extension.js:966
+msgid "Gentle breeze"
+msgstr "نسيم علي"
+
+#: src/extension.js:969
+msgid "Moderate breeze"
+msgstr "نسيم متوسط"
+
+#: src/extension.js:972
+msgid "Fresh breeze"
+msgstr "نسيم منعش"
+
+#: src/extension.js:975
+msgid "Strong breeze"
+msgstr "نسيم قوي"
+
+#: src/extension.js:978
+msgid "Moderate gale"
+msgstr "نوبة متوسطة"
+
+#: src/extension.js:981
+msgid "Fresh gale"
+msgstr "نوبة جديدة"
+
+#: src/extension.js:984
+msgid "Strong gale"
+msgstr "نوبة قوية"
+
+#: src/extension.js:987
+msgid "Storm"
+msgstr "عاصفة"
+
+#: src/extension.js:990
+msgid "Violent storm"
+msgstr "عاصفة قوية"
+
+#: src/extension.js:993
+msgid "Hurricane"
+msgstr "إعصار"
+
+#: src/extension.js:997
+msgid "Sunday"
+msgstr "الأحد"
+
+#: src/extension.js:997
+msgid "Monday"
+msgstr "الإثنين"
+
+#: src/extension.js:997
+msgid "Tuesday"
+msgstr "الثّلاثاء"
+
+#: src/extension.js:997
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: src/extension.js:997
+msgid "Thursday"
+msgstr "الخميس"
+
+#: src/extension.js:997
+msgid "Friday"
+msgstr "الجمعة"
+
+#: src/extension.js:997
+msgid "Saturday"
+msgstr "السّبت"
+
+#: src/extension.js:1003
+msgid "N"
+msgstr "شمال"
+
+#: src/extension.js:1003
+msgid "NE"
+msgstr "شمال شرقي"
+
+#: src/extension.js:1003
+msgid "E"
+msgstr "شرق"
+
+#: src/extension.js:1003
+msgid "SE"
+msgstr "جنوب شرقي"
+
+#: src/extension.js:1003
+msgid "S"
+msgstr "جنوب"
+
+#: src/extension.js:1003
+msgid "SW"
+msgstr "جنوب غربي"
+
+#: src/extension.js:1003
+msgid "W"
+msgstr "غرب"
+
+#: src/extension.js:1003
+msgid "NW"
+msgstr "شمال غربي"
+
+#: src/extension.js:1056 src/extension.js:1065
+#: src/preferences/generalPage.js:177
+msgid "hPa"
+msgstr "ه‍.باسكال"
+
+#: src/extension.js:1060 src/preferences/generalPage.js:178
+msgid "inHg"
+msgstr "بوصة زئبق"
+
+#: src/extension.js:1070 src/preferences/generalPage.js:179
+msgid "bar"
+msgstr ""
+
+#: src/extension.js:1075 src/preferences/generalPage.js:180
+msgid "Pa"
+msgstr ""
+
+#: src/extension.js:1080 src/preferences/generalPage.js:181
+msgid "kPa"
+msgstr "ك.باسكال"
+
+#: src/extension.js:1085 src/preferences/generalPage.js:182
+msgid "atm"
+msgstr ""
+
+#: src/extension.js:1090 src/preferences/generalPage.js:183
+msgid "at"
+msgstr ""
+
+#: src/extension.js:1095 src/preferences/generalPage.js:184
+msgid "Torr"
+msgstr ""
+
+#: src/extension.js:1100 src/preferences/generalPage.js:185
+msgid "psi"
+msgstr ""
+
+#: src/extension.js:1105 src/preferences/generalPage.js:186
+msgid "mmHg"
+msgstr "مم زئبق"
+
+#: src/extension.js:1110 src/preferences/generalPage.js:187
+msgid "mbar"
+msgstr ""
+
+#: src/extension.js:1158 src/preferences/generalPage.js:165
+msgid "m/s"
+msgstr "م/ث"
+
+#: src/extension.js:1163 src/preferences/generalPage.js:164
+msgid "mph"
+msgstr "ميل/س"
+
+#: src/extension.js:1168 src/preferences/generalPage.js:163
+msgid "km/h"
+msgstr "كم/س"
+
+#: src/extension.js:1177 src/preferences/generalPage.js:166
+msgid "kn"
+msgstr ""
+
+#: src/extension.js:1182 src/preferences/generalPage.js:167
+msgid "ft/s"
+msgstr "قدم\\ث"
+
+#: src/extension.js:1227 src/extension.js:1265
+msgid "Loading ..."
+msgstr "يُحمّل…"
+
+#: src/extension.js:1269
+msgid "Please wait"
+msgstr "رجاء انتظر"
+
+#: src/extension.js:1340
+msgid "Feels Like:"
+msgstr ""
+
+#: src/extension.js:1344
+msgid "Humidity:"
+msgstr "الرّطوبة:"
+
+#: src/extension.js:1348
+msgid "Pressure:"
+msgstr "الضغط:"
+
+#: src/extension.js:1352
+msgid "Wind:"
+msgstr "الرياح:"
+
+#: src/extension.js:1356
+msgid "Gusts:"
+msgstr ""
+
+#: src/extension.js:1487
+msgid "Tomorrow's Forecast"
+msgstr ""
+
+#: src/extension.js:1489
+#, fuzzy, javascript-format
+msgid "%s Day Forecast"
+msgstr "الأحوال في التنبؤات"
+
+#: src/openweathermap.js:50
+#, fuzzy
+msgid "Thunderstorm with Light Rain"
+msgstr "عاصفة رعدية مع مطر خفيف"
+
+#: src/openweathermap.js:52
+#, fuzzy
+msgid "Thunderstorm with Rain"
+msgstr "عاصفة رعدية مع مطر"
+
+#: src/openweathermap.js:54
+#, fuzzy
+msgid "Thunderstorm with Heavy Rain"
+msgstr "عاصفة رعدية مع مطر غزير"
+
+#: src/openweathermap.js:56
+#, fuzzy
+msgid "Light Thunderstorm"
+msgstr "عاصفة رعدية خفيفة"
+
+#: src/openweathermap.js:58
+msgid "Thunderstorm"
+msgstr "عاصفة رعدية"
+
+#: src/openweathermap.js:60
+#, fuzzy
+msgid "Heavy Thunderstorm"
+msgstr "عاصفة رعدية غزيرة"
+
+#: src/openweathermap.js:62
+#, fuzzy
+msgid "Ragged Thunderstorm"
+msgstr "عاصفة رعدية متقطعة"
+
+#: src/openweathermap.js:64
+#, fuzzy
+msgid "Thunderstorm with Light Drizzle"
+msgstr "عاصفة رعدية مع رذاذ خفيف"
+
+#: src/openweathermap.js:66
+#, fuzzy
+msgid "Thunderstorm with Drizzle"
+msgstr "عاصفة رعدية مع رذاذ"
+
+#: src/openweathermap.js:68
+#, fuzzy
+msgid "Thunderstorm with Heavy Drizzle"
+msgstr "عاصفة رعدية مع رذاذ غزير"
+
+#: src/openweathermap.js:70
+#, fuzzy
+msgid "Light Drizzle"
+msgstr "نسيم خفيف"
+
+#: src/openweathermap.js:72
+msgid "Drizzle"
+msgstr "رذاذ"
+
+#: src/openweathermap.js:74
+#, fuzzy
+msgid "Heavy Drizzle"
+msgstr "رذاذ"
+
+#: src/openweathermap.js:76
+#, fuzzy
+msgid "Light Drizzle Rain"
+msgstr "رذاذ"
+
+#: src/openweathermap.js:78
+#, fuzzy
+msgid "Drizzle Rain"
+msgstr "رذاذ"
+
+#: src/openweathermap.js:80
+#, fuzzy
+msgid "Heavy Drizzle Rain"
+msgstr "رذاذ"
+
+#: src/openweathermap.js:82
+#, fuzzy
+msgid "Shower Rain and Drizzle"
+msgstr "زخات مطر و رذاذ"
+
+#: src/openweathermap.js:84
+#, fuzzy
+msgid "Heavy Rain and Drizzle"
+msgstr "زخات مطر و رذاذ غزيرة"
+
+#: src/openweathermap.js:86
+#, fuzzy
+msgid "Shower Drizzle"
+msgstr "زخات رذاذ"
+
+#: src/openweathermap.js:88
+#, fuzzy
+msgid "Light Rain"
+msgstr "مطر خفيف"
+
+#: src/openweathermap.js:90
+#, fuzzy
+msgid "Moderate Rain"
+msgstr "مطر معتدل"
+
+#: src/openweathermap.js:92
+#, fuzzy
+msgid "Heavy Rain"
+msgstr "ثلوج غزيرة"
+
+#: src/openweathermap.js:94
+#, fuzzy
+msgid "Very Heavy Rain"
+msgstr "مطر غزير جدًا"
+
+#: src/openweathermap.js:96
+#, fuzzy
+msgid "Extreme Rain"
+msgstr "مطر شديد"
+
+#: src/openweathermap.js:98
+#, fuzzy
+msgid "Freezing Rain"
+msgstr "مطر مجمِّد"
+
+#: src/openweathermap.js:100
+#, fuzzy
+msgid "Light Shower Rain"
+msgstr "زخات ثلوج خفيفة"
+
+#: src/openweathermap.js:102
+#, fuzzy
+msgid "Shower Rain"
+msgstr "زخات مطر"
+
+#: src/openweathermap.js:104
+#, fuzzy
+msgid "Heavy Shower Rain"
+msgstr "زخات ثلوج غزيرة"
+
+#: src/openweathermap.js:106
+#, fuzzy
+msgid "Ragged Shower Rain"
+msgstr "زخات مطر متقطعة"
+
+#: src/openweathermap.js:108
+#, fuzzy
+msgid "Light Snow"
+msgstr "ثلوج خفيفة"
+
+#: src/openweathermap.js:110
+msgid "Snow"
+msgstr "ثلوج"
+
+#: src/openweathermap.js:112
+#, fuzzy
+msgid "Heavy Snow"
+msgstr "ثلوج غزيرة"
+
+#: src/openweathermap.js:114
+msgid "Sleet"
+msgstr "جَمَد المَطَر"
+
+#: src/openweathermap.js:116
+#, fuzzy
+msgid "Light Shower Sleet"
+msgstr "جَمَد مطر بطيء"
+
+#: src/openweathermap.js:118
+#, fuzzy
+msgid "Shower Sleet"
+msgstr "جَمَد مطر بطيء"
+
+#: src/openweathermap.js:120
+#, fuzzy
+msgid "Light Rain and Snow"
+msgstr "مطر خفيف و ثلوج"
+
+#: src/openweathermap.js:122
+#, fuzzy
+msgid "Rain and Snow"
+msgstr "مطر و ثلوج"
+
+#: src/openweathermap.js:124
+#, fuzzy
+msgid "Light Shower Snow"
+msgstr "زخات ثلوج خفيفة"
+
+#: src/openweathermap.js:126
+#, fuzzy
+msgid "Shower Snow"
+msgstr "ثلوج أبطأ"
+
+#: src/openweathermap.js:128
+#, fuzzy
+msgid "Heavy Shower Snow"
+msgstr "زخات ثلوج غزيرة"
+
+#: src/openweathermap.js:130
+msgid "Mist"
+msgstr "ضباب خفيف"
+
+#: src/openweathermap.js:132
+msgid "Smoke"
+msgstr "دخان"
+
+#: src/openweathermap.js:134
+msgid "Haze"
+msgstr "سديم"
+
+#: src/openweathermap.js:136
+msgid "Sand/Dust Whirls"
+msgstr "دوامات رمل و غبار"
+
+#: src/openweathermap.js:138
+msgid "Fog"
+msgstr "ضباب"
+
+#: src/openweathermap.js:140
+msgid "Sand"
+msgstr "رمال"
+
+#: src/openweathermap.js:142
+msgid "Dust"
+msgstr "غبار"
+
+#: src/openweathermap.js:144
+msgid "Volcanic Ash"
+msgstr ""
+
+#: src/openweathermap.js:146
+msgid "Squalls"
+msgstr ""
+
+#: src/openweathermap.js:148
+msgid "Tornado"
+msgstr ""
+
+#: src/openweathermap.js:150
+#, fuzzy
+msgid "Clear Sky"
+msgstr "امسح الخانة"
+
+#: src/openweathermap.js:152
+#, fuzzy
+msgid "Few Clouds"
+msgstr "سُحُب خفيفة"
+
+#: src/openweathermap.js:154
+#, fuzzy
+msgid "Scattered Clouds"
+msgstr "سُحُب متفرقة"
+
+#: src/openweathermap.js:156
+#, fuzzy
+msgid "Broken Clouds"
+msgstr "سُحُب مفككة"
+
+#: src/openweathermap.js:158
+#, fuzzy
+msgid "Overcast Clouds"
+msgstr "غيوم"
+
+#: src/openweathermap.js:160
+msgid "Not available"
+msgstr "غير متاح"
+
+#: src/openweathermap.js:374 src/openweathermap.js:376
+msgid ", "
+msgstr "، "
+
+#: src/openweathermap.js:392
+msgid "?"
+msgstr ""
+
+#: src/openweathermap.js:460
+msgid "Tomorrow"
+msgstr "غدًا"
+
+#: src/preferences/generalPage.js:31
+#, fuzzy
+msgid "Settings"
+msgstr "إعدادات الطقس"
+
+#: src/preferences/generalPage.js:39
+msgid "General"
+msgstr ""
+
+#: src/preferences/generalPage.js:57
+msgid "Current Weather Refresh"
+msgstr ""
+
+#: src/preferences/generalPage.js:58
+msgid "Current weather refresh interval in minutes"
+msgstr ""
+
+#: src/preferences/generalPage.js:80
+#, fuzzy
+msgid "Weather Forecast Refresh"
+msgstr "وسّط التنبؤات"
+
+#: src/preferences/generalPage.js:81
+msgid "Forecast refresh interval in minutes if enabled"
+msgstr ""
+
+#: src/preferences/generalPage.js:92
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:108
+msgid "Disable Forecast"
+msgstr ""
+
+#: src/preferences/generalPage.js:93
+msgid "Disables all fetching and processing of forecast data"
+msgstr ""
+
+#: src/preferences/generalPage.js:104
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:96
+#, fuzzy
+msgid "System Icons"
+msgstr "أيقونات رمزية"
+
+#: src/preferences/generalPage.js:105
+msgid "Disable to use packaged Adwaita weather icons"
+msgstr ""
+
+#: src/preferences/generalPage.js:106
+msgid ""
+"If you have issues with your system icons displaying correctly disable this "
+"to fix it"
+msgstr ""
+
+#: src/preferences/generalPage.js:126
+msgid "First Boot Delay"
+msgstr ""
+
+#: src/preferences/generalPage.js:127
+msgid "Seconds to delay popup initialization and data fetching"
+msgstr ""
+
+#: src/preferences/generalPage.js:128
+msgid ""
+"This setting only applies to the first time the extension is loaded. (first "
+"log in / restarting gnome shell)"
+msgstr ""
+
+#: src/preferences/generalPage.js:142
+msgid "Units"
+msgstr "الوحدات"
+
+#: src/preferences/generalPage.js:156
+#, fuzzy
+msgid "Temperature"
+msgstr "وحدة درجة الحرارة"
+
+#: src/preferences/generalPage.js:168
+msgid "Beaufort"
+msgstr "بوفورت"
+
+#: src/preferences/generalPage.js:170
+#, fuzzy
+msgid "Wind Speed"
+msgstr "وحدة سرعة الرياح"
+
+#: src/preferences/generalPage.js:189
+#, fuzzy
+msgid "Pressure"
+msgstr "الضغط:"
+
+#: src/preferences/generalPage.js:201 src/preferences/locationsPage.js:64
+msgid "Provider"
+msgstr "المزود"
+
+#: src/preferences/generalPage.js:210
+msgid "OpenWeatherMap Multilingual Support"
+msgstr ""
+
+#: src/preferences/generalPage.js:211
+msgid "Using provider translations applies to weather conditions only"
+msgstr ""
+
+#: src/preferences/generalPage.js:212
+msgid ""
+"Enable this to use OWM multilingual support in 46 languages if there's no "
+"built-in translations for your language yet."
+msgstr ""
+
+#: src/preferences/generalPage.js:224
+msgid "Use Extensions API Key"
+msgstr ""
+
+#: src/preferences/generalPage.js:225
+#, fuzzy
+msgid "Use the built-in API key for OpenWeatherMap"
+msgstr "استخدم مفتاح استخدام الخدمة من الامتداد مع openweathermap.org"
+
+#: src/preferences/generalPage.js:226
+#, fuzzy
+msgid ""
+"Disable this if you have your own API key from openweathermap.org and enter "
+"it below."
+msgstr ""
+"ألغ التأشير هنا إذا كان لديك مفتاحك الشخصي لاستخدام الخدمة و ضعه في صندوق "
+"النص أدناه."
+
+#: src/preferences/generalPage.js:240
+msgid "Personal API Key"
+msgstr ""
+
+#: src/preferences/layoutPage.js:31
+msgid "Layout"
+msgstr "الترتيب"
+
+#: src/preferences/layoutPage.js:39
+msgid "Panel"
+msgstr ""
+
+#: src/preferences/layoutPage.js:44
+msgid "Center"
+msgstr "وسط"
+
+#: src/preferences/layoutPage.js:45
+msgid "Right"
+msgstr "يمين"
+
+#: src/preferences/layoutPage.js:46
+msgid "Left"
+msgstr "يسار"
+
+#: src/preferences/layoutPage.js:48
+#, fuzzy
+msgid "Position In Panel"
+msgstr "الموضع في اللوحة"
+
+#: src/preferences/layoutPage.js:69
+#, fuzzy
+msgid "Position Offset"
+msgstr "الموضع في اللوحة"
+
+#: src/preferences/layoutPage.js:70
+msgid "The position relative to other items in the box"
+msgstr ""
+
+#: src/preferences/layoutPage.js:78
+#, fuzzy
+msgid "Show the temperature in the panel"
+msgstr "درجة الحرارة في اللوحة"
+
+#: src/preferences/layoutPage.js:82
+#, fuzzy
+msgid "Temperature In Panel"
+msgstr "درجة الحرارة في اللوحة"
+
+#: src/preferences/layoutPage.js:90
+msgid "Show the weather conditions in the panel"
+msgstr ""
+
+#: src/preferences/layoutPage.js:94
+#, fuzzy
+msgid "Conditions In Panel"
+msgstr "الأحوال في اللوحة"
+
+#: src/preferences/layoutPage.js:107
+msgid "Popup"
+msgstr ""
+
+#: src/preferences/layoutPage.js:125
+msgid "Popup Position"
+msgstr ""
+
+#: src/preferences/layoutPage.js:126
+msgid "Alignment of the popup from left to right"
+msgstr ""
+
+#: src/preferences/layoutPage.js:137
+#, fuzzy
+msgid "Wind Direction Arrows"
+msgstr "اتجاه الرياح بالأسهم"
+
+#: src/preferences/layoutPage.js:149
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:88
+msgid "Translate Conditions"
+msgstr "ترجم حالة الطقس"
+
+#: src/preferences/layoutPage.js:157
+msgid "0"
+msgstr ""
+
+#: src/preferences/layoutPage.js:158 src/preferences/layoutPage.js:229
+msgid "1"
+msgstr ""
+
+#: src/preferences/layoutPage.js:159 src/preferences/layoutPage.js:230
+msgid "2"
+msgstr ""
+
+#: src/preferences/layoutPage.js:160 src/preferences/layoutPage.js:231
+msgid "3"
+msgstr ""
+
+#: src/preferences/layoutPage.js:162
+#, fuzzy
+msgid "Temperature Decimal Places"
+msgstr "درجة الحرارة في اللوحة"
+
+#: src/preferences/layoutPage.js:163
+#, fuzzy
+msgid "Maximum number of digits after the decimal point"
+msgstr "أقصي عدد من الأرقام بعد الفاصلة العشرية"
+
+#: src/preferences/layoutPage.js:183
+msgid "Location Text Length"
+msgstr ""
+
+#: src/preferences/layoutPage.js:184
+msgid "Maximum length of the location text. A setting of '0' is unlimited"
+msgstr ""
+
+#: src/preferences/layoutPage.js:200
+#, fuzzy
+msgid "Forecast"
+msgstr "وسّط التنبؤات"
+
+#: src/preferences/layoutPage.js:210
+#, fuzzy
+msgid "Center Today's Forecast"
+msgstr "وسّط التنبؤات"
+
+#: src/preferences/layoutPage.js:221
+#, fuzzy
+msgid "Conditions In Forecast"
+msgstr "الأحوال في التنبؤات"
+
+#: src/preferences/layoutPage.js:228
+msgid "Today Only"
+msgstr ""
+
+#: src/preferences/layoutPage.js:232
+msgid "4"
+msgstr ""
+
+#: src/preferences/layoutPage.js:233
+msgid "5"
+msgstr ""
+
+#: src/preferences/layoutPage.js:235
+#, fuzzy
+msgid "Total Days In Forecast"
+msgstr "الأحوال في التنبؤات"
+
+#: src/preferences/layoutPage.js:246
+msgid "Keep Forecast Expanded"
+msgstr ""
+
+#: src/preferences/locationsPage.js:52
+msgid "Add"
+msgstr ""
+
+#: src/preferences/locationsPage.js:71
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:58
+#, fuzzy
+msgid "Geolocation Provider"
+msgstr "مقدم التموضع"
+
+#: src/preferences/locationsPage.js:72
+msgid "Provider used for location search"
+msgstr ""
+
+#: src/preferences/locationsPage.js:85
+msgid "Personal MapQuest Key"
+msgstr ""
+
+#: src/preferences/locationsPage.js:86
+#, fuzzy
+msgid "Personal API Key from developer.mapquest.com"
+msgstr "مفتاح تطبيق شخصي من developer.mapquest.com"
+
+#: src/preferences/locationsPage.js:206
+#, javascript-format
+msgid "Location changed to: %s"
+msgstr ""
+
+#: src/preferences/locationsPage.js:221
+#, fuzzy
+msgid "Add New Location"
+msgstr "المكان"
+
+#: src/preferences/locationsPage.js:242
+#, fuzzy
+msgid "Search by Location or Coordinates"
+msgstr "ابحث بالمكان و الإحداثيات"
+
+#: src/preferences/locationsPage.js:248
+msgid "e.g. Vaiaku, Tuvalu or -8.5211767,179.1976747"
+msgstr "مثلا: القاهرة، مصر، أو 30.05,31.233333"
+
+#: src/preferences/locationsPage.js:250 src/preferences/locationsPage.js:335
+#: src/preferences/locationsPage.js:352
+msgid "Clear entry"
+msgstr "امسح الخانة"
+
+#: src/preferences/locationsPage.js:259
+#, fuzzy
+msgid "Search"
+msgstr "يُحمّل…"
+
+#: src/preferences/locationsPage.js:282
+msgid "We need something to search for!"
+msgstr ""
+
+#: src/preferences/locationsPage.js:305
+#, fuzzy, javascript-format
+msgid "Edit %s"
+msgstr "حرر الاسم"
+
+#: src/preferences/locationsPage.js:327
+#, fuzzy
+msgid "Edit Name"
+msgstr "حرر الاسم"
+
+#: src/preferences/locationsPage.js:343
+#, fuzzy
+msgid "Edit Coordinates"
+msgstr "حرر الإحداثيات"
+
+#: src/preferences/locationsPage.js:361
+msgid "Save"
+msgstr "احفظ"
+
+#: src/preferences/locationsPage.js:394
+msgid "Please complete all fields"
+msgstr ""
+
+#: src/preferences/locationsPage.js:410
+#, javascript-format
+msgid "%s has been updated"
+msgstr ""
+
+#: src/preferences/locationsPage.js:439
+#, javascript-format
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: src/preferences/locationsPage.js:447
+msgid "Delete"
+msgstr ""
+
+#: src/preferences/locationsPage.js:451
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: src/preferences/locationsPage.js:483
+#, javascript-format
+msgid "%s has been deleted"
+msgstr ""
+
+#: src/preferences/locationsPage.js:529
+msgid "Search Results"
+msgstr ""
+
+#: src/preferences/locationsPage.js:545
+msgid "New Search"
+msgstr ""
+
+#: src/preferences/locationsPage.js:552
+#, fuzzy
+msgid "Searching ..."
+msgstr "يُحمّل…"
+
+#: src/preferences/locationsPage.js:553
+#, javascript-format
+msgid "Please wait while searching for locations matching \"%s\""
+msgstr ""
+
+#: src/preferences/locationsPage.js:605
+msgid "AppKey Required"
+msgstr ""
+
+#: src/preferences/locationsPage.js:606
+#, fuzzy, javascript-format
+msgid "You need an AppKey to use MapQuest, get one at: %s"
+msgstr "مفتاح تطبيق شخصي من developer.mapquest.com"
+
+#: src/preferences/locationsPage.js:709
+#, javascript-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: src/preferences/locationsPage.js:756
+#, javascript-format
+msgid "%s has been added"
+msgstr ""
+
+#: src/preferences/locationsPage.js:764
+msgid "API Error"
+msgstr ""
+
+#: src/preferences/locationsPage.js:765
+#, fuzzy, javascript-format
+msgid "Invalid data when searching for \"%s\"."
+msgstr "بيانات غير صحيحة أثناء البحث عن \"%s\""
+
+#: src/preferences/locationsPage.js:768
+msgid "No Matches Found"
+msgstr ""
+
+#: src/preferences/locationsPage.js:769
+#, fuzzy, javascript-format
+msgid "No results found when searching for \"%s\"."
+msgstr "بيانات غير صحيحة أثناء البحث عن \"%s\""
+
+#: src/preferences/aboutPage.js:31
+msgid "About"
+msgstr "عنْ"
+
+#: src/preferences/aboutPage.js:58
+msgid ""
+"Display weather information for any location on Earth in the GNOME Shell"
+msgstr ""
+
+#: src/preferences/aboutPage.js:72
+msgid "unknown"
+msgstr ""
+
+#: src/preferences/aboutPage.js:78
+#, fuzzy
+msgid "OpenWeather Version"
+msgstr "إعدادات الطقس"
+
+#: src/preferences/aboutPage.js:87
+#, fuzzy
+msgid "Git Version"
+msgstr "الإصدارة: "
+
+#: src/preferences/aboutPage.js:95
+#, fuzzy
+msgid "GNOME Version"
+msgstr "الإصدارة: "
+
+#: src/preferences/aboutPage.js:102
+msgid "Session Type"
+msgstr ""
+
+#: src/preferences/aboutPage.js:124
+#, fuzzy, javascript-format
+msgid "Maintained by: %s"
+msgstr "مسئول عنها"
+
+#: src/preferences/aboutPage.js:161
+#, fuzzy, javascript-format
+msgid "Weather data provided by: %s"
+msgstr "بيانات الطقس من:"
+
+#: src/preferences/aboutPage.js:172
+msgid "This program comes with ABSOLUTELY NO WARRANTY."
+msgstr ""
+
+#: src/preferences/aboutPage.js:173
+msgid "See the"
+msgstr ""
+
+#: src/preferences/aboutPage.js:174
+msgid "GNU General Public License, version 2 or later"
+msgstr ""
+
+#: src/preferences/aboutPage.js:174
+msgid "for details."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:54
+#, fuzzy
+msgid "Weather Provider"
+msgstr "مقدم الطقس"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:62
+msgid "Temperature Unit"
+msgstr "وحدة درجة الحرارة"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:66
+msgid "Pressure Unit"
+msgstr "وحدة الضغط"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:70
+#, fuzzy
+msgid "Wind Speed Units"
+msgstr "وحدة سرعة الرياح"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:71
+msgid ""
+"Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/"
+"s', 'knots', 'ft/s' or 'Beaufort'."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:75
+msgid "Wind Direction by Arrows"
+msgstr "اتجاه الرياح بالأسهم"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:76
+msgid "Choose whether to display wind direction through arrows or letters."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:80
+msgid "City to be displayed"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:84
+msgid "Actual City"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:92
+msgid "OpenWeatherMap Multilingual Support (weather descriptions only)"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:100
+msgid "Temperature in Panel"
+msgstr "درجة الحرارة في اللوحة"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:104
+msgid "Conditions in Panel"
+msgstr "الأحوال في اللوحة"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:112
+msgid "Conditions in Forecast"
+msgstr "الأحوال في التنبؤات"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:116
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:120
+msgid "Position in Panel"
+msgstr "الموضع في اللوحة"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:124
+msgid "Horizontal position of menu-box."
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:128
+#, fuzzy
+msgid "Refresh interval (actual weather)"
+msgstr "وسّط التنبؤات"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:132
+msgid "Maximal length of the location text"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:136
+#, fuzzy
+msgid "Refresh interval (forecast)"
+msgstr "وسّط التنبؤات"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:140
+#, fuzzy
+msgid "Center forecastbox."
+msgstr "وسّط التنبؤات"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:144
+msgid "Always keep forecast expanded"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:148
+msgid "Number of days in forecast"
+msgstr "عدد الأيام في التنبؤات"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:152
+msgid "Maximal number of digits after the decimal point"
+msgstr "أقصي عدد من الأرقام بعد الفاصلة العشرية"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:156
+#, fuzzy
+msgid "Your personal API key from openweathermap.org"
+msgstr "مفتاح شخصي لاستخدام الخدمة من openweathermap.org"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:160
+#, fuzzy
+msgid "Use the extensions default API key from openweathermap.org"
+msgstr "استخدم مفتاح استخدام الخدمة من الامتداد مع openweathermap.org"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:164
+#, fuzzy
+msgid "Your personal AppKey from developer.mapquest.com"
+msgstr "مفتاح تطبيق شخصي من developer.mapquest.com"
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:168
+msgid "Seconds to delay popup initialization and data fetch on the first load"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:172
+msgid "Default width for the preferences window"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.openweather.gschema.xml:176
+msgid "Default height for the preferences window"
+msgstr ""
