@@ -3,8 +3,6 @@
 - Original repository: https://gitlab.com/skrewball/openweather
 - API: https://openweathermap.org/
 
-![image](https://user-images.githubusercontent.com/60454486/205383841-029a3c14-cea5-4186-8903-157563b58352.png)
-
 ![image](https://user-images.githubusercontent.com/60454486/205383935-fd19e6e7-0141-40a8-8531-df34571865c1.png)
 
 
