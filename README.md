@@ -4,6 +4,23 @@ This is a Gnome Shell Extension for Open Weather API. Currently using in Ubuntu 
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+## Install From Source
+
+This method installs to your `~/.local/share/gnome-shell/extensions` directory from the latest source code on the `master` branch.
+
+First make sure you have the following dependencies installed:
+
+| Arch Based     | Debian Based                  | Fedora                 |
+| ---            | ---                           | ---                    |
+| `dconf`        | `dconf-gsettings-backend`     | `dconf`                |
+| `gnome-shell`  | `gnome-shell-extension-prefs` | `gnome-extensions-app` |
+| `git`          | `git`                         | `git`                  |
+| `base-devel`   | `build-essential`             | `glib2-devel`          |
+|                | `gettext`                     | `gettext-devel`        |
+|                | `libsoup3`                    |                        |
+
+
+
 - API: https://openweathermap.org/
 - Gnome Extension: https://extensions.gnome.org/extension/750/openweather/
 - Original repository: https://gitlab.com/skrewball/openweather
