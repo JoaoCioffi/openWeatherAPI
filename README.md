@@ -19,8 +19,6 @@ First make sure you have the following dependencies installed:
 |                | `gettext`                     | `gettext-devel`        |
 |                | `libsoup3`                    |                        |
 
-
-
 - API: https://openweathermap.org/
 - Gnome Extension: https://extensions.gnome.org/extension/750/openweather/
 - Original repository: https://gitlab.com/skrewball/openweather
@@ -39,7 +37,6 @@ First make sure you have the following dependencies installed:
 # Previous Author
 
 2013-2021 - Jens Lody
-
 
 # The individuals below have contributed to the project prior
 # to the projects current fork:
