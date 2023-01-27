@@ -6,7 +6,7 @@ This is a Gnome Shell Extension for Open Weather API. Currently using in Ubuntu 
 
 ## Install From Source
 
-This method installs to your `~/.local/share/gnome-shell/extensions` directory from the latest source code on the `master` branch.
+This method installs to your ```~/.local/share/gnome-shell/extensions``` directory from the latest source code on the `master` branch.
 
 First make sure you have the following dependencies installed:
 
